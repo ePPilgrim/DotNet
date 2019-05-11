@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GradeBook
 {
@@ -6,6 +7,7 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
+            List<int> grades = null;
             string str = "Hollo world!!!!";
             Console.WriteLine(str);
         }
